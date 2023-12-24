@@ -34,6 +34,6 @@ public class Pelanggaran {
     }
 
     public String ToString(){
-        return "Pelanggaran : " + this.deskripsi + " " + kategori.getJenis() + " " + sanksi.getKeterangan() + " " + sanksi.getPoin();
+        return "Pelanggaran : " + this.deskripsi + " " + this.kategori.getJenis() + " " + this.sanksi.getKeterangan() + " " + this.sanksi.getPoin();
     }
 }
